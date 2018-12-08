@@ -15,4 +15,7 @@ from odoo import models, fields, api
 #         self.value2 = float(self.value) / 100
 class course(models.Model):
     _name='course'
-    _rec_name=''
+    _description='科目表'
+    
+    name=fields.Char(u'科目',size='100')
+    
