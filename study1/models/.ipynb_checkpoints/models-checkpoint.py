@@ -13,6 +13,3 @@ from odoo import models, fields, api
 #     @api.depends('value')
 #     def _value_pc(self):
 #         self.value2 = float(self.value) / 100
-class course(models.Model):
-    _name='course'
-    _rec_name=''
